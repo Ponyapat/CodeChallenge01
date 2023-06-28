@@ -1,0 +1,24 @@
+.header {
+    background: #333;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+
+.container a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+    background: linear-gradient(to right, #30CFD0, #c43ad6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 80px rgb(192 219 255 / 50%), 0 0 32px rgb(65 120 255 / 24%);
+}
+

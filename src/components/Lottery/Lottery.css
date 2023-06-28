@@ -1,0 +1,163 @@
+.body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+:root {
+    /* violet */
+    --primary-color: 111, 76, 255;
+    
+    /* white */
+    --text-color: 256, 256, 256;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container h1 {
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+.glow {
+    text-shadow: 0 0 80px rgb(192 219 255 / 35%), 0 0 32px rgb(65 120 255 / 50%);
+  }
+  
+
+
+.gacha {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.result {
+    
+    margin: 10px;
+    text-align: justify;
+    font-size: 20px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.card1 {
+    outline: auto;
+    margin: 30px;
+    height: 400px;
+    width: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+table, th, td {
+    width: 600px;
+    border: 1px solid black;
+    border-collapse:separate
+    
+   
+    
+    
+}
+
+table th {
+    color: white;
+    background-color: #333;
+    border-bottom: 2rem;
+}
+
+table tr {
+    background-color: white;
+    border-color: antiquewhite;
+}
+
+.card2 {
+    outline: auto;
+    margin-top: 30px;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.Title {
+    background: #333;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.check {
+    margin-top: 50px;
+}
+
+.check input {
+    margin: 10px;
+}
+
+:root {
+    /* violet */
+    --primary-color: 111, 76, 255;
+    
+    /* white */
+    --text-color: 256, 256, 256;
+  }
+  
+  .btn {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    padding: 12px 32px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    border-radius: 50px;
+  }
+
+  .btn1 {
+    padding: 12px;
+    font-size: 20px;
+    width: 200px;
+    margin: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50px;
+    justify-items: center;
+  }
+  
+  .btn:hover {
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: rgb(var(--primary-color));
+    border: 1px solid rgb(var(--primary-color));
+    color: rgb(var(--text-color));
+  }
+  
+  /* https://thegraph.com/en/ */
+  
+  .btn-glow:hover {
+    box-shadow: rgba(var(--primary-color), 0.5) 0px 0px 20px 0px;
+  }
+  
+  
